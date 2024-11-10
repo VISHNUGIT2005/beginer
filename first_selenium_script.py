@@ -7,4 +7,14 @@ url = "https://www.bing.com/search?q=google+maps&gs_lcrp=EgRlZGdlKgcIABBFGMIDMgc
 
 # Open Google
 driver = webdriver.Chrome()
+<<<<<<< HEAD
 driver.get(url)
+=======
+driver.get(url)
+
+# Print the title of the current webpage
+print("Page Title is: ", driver.title)
+
+# Close the browser
+#hi vishnu
+>>>>>>> 22972e942fd7b0a042f09de62ad83b2f47819b7d
