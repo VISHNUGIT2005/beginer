@@ -15,6 +15,7 @@ username.send_keys("vishnu")
 password.send_keys("aaa111222")
 
 search_box = driver.find_element(By.ID,"loginbtn")
+
 search_box.send_keys(Keys.RETURN)
 
 time.sleep(10)
