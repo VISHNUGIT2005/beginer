@@ -16,5 +16,4 @@ driver.get(url)
 print("Page Title is: ", driver.title)
 
 # Close the browser
-#hi vishnu
->>>>>>> 22972e942fd7b0a042f09de62ad83b2f47819b7d
+#hi vishnu r
