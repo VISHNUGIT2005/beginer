@@ -9,7 +9,7 @@ url = "http://127.0.0.1:5500/main.html"
 driver = webdriver.Chrome()
 driver.get(url)
 try:
-   driver.find_element(By.ID, "username")
+   driver.find_element(By.ID, "userename")
 except NoSuchElementException as e:
     logging.error(f"NoSuchElementException: {e}")
 
